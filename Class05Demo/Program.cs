@@ -6,10 +6,15 @@ using System.Threading.Tasks;
 
 namespace Class05Demo
 {
-    class Program
+    class Program : Park
     {
         static void Main(string[] args)
         {
+            SixFlags california = new SixFlags();
+
+            Console.WriteLine(california.CollectFees());
+
+            Console.Read();
         }
     }
 }
